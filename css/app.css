@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+html, body { height: 100%; width: 100%; margin: 0; }
+ .hero
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.left-col {
+
+    flex-basis: 30%;
+    height: 100%;
+    background:black;
+    position: relative;
+}
+
+.menu-icon-1{
+    margin: 40px;
+    color:white;
+    
+}
+
+.logo {
+    margin-left:160px;
+    margin-top: -65px;
+}
+
+.logo img {
+    width:40%;
+}
+
+.white-bar{
+    position: absolute;
+    height: 20px;
+    width: 280px;
+    background: white;
+    top: 180px;
+    right: 0;
+}
+
+
+
+.quote-text{
+    width:400px;   
+    top:200px;
+    right: -10px;
+    position: absolute;
+    color:white;
+}
+
+.quote-text p{
+    margin-top: 10px;
+    font-size: 22px ;
+}
+
+.small-img {
+    bottom: 50px;
+    right: -43px;
+    position: absolute;
+}
+
+.small-img::after{
+    content: '\276f';
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 120px;
+    left: -100px;
+    color:white;
+    font-size: 28px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+
+
+.small-img::before{
+    content: '\276f';
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: -100px;
+    color:white;
+    font-size: 28px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+.line-1 {
+    width:2px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    right: -40px;
+    bottom: 34px;
+}
+
+.line-1::after{
+    content: '02/04';
+    position: absolute;
+    top: -30px;
+    left: -17px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    transform: rotate(-90deg);
+}
+
+.fa-quote-right {
+    position: absolute;
+    right: 170px;
+    top: 90px;
+}
+
+.small-img img{
+    height: 240px;
+    width: 180px;
+}
+
+/*right column*/
+
+.right-col {
+    flex-basis: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar
+{
+    position: absolute;
+    right:45px;
+    top:85px;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 40px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search {
+    margin-right:25px ;   
+
+}
+
+.user {
+    margin-left:35px;
+}
+
+.red-bar{
+    position: absolute;
+    height: 20px;
+    width: 280px;
+    background: black;
+    top: 180px;
+    left : 0;
+}
+
+.red-bar span{
+    position: absolute;
+    height: 20px;
+    width: 6px;
+    background: black;
+    top: 0;
+    left : 287px;
+}
+
+.feature-img img {
+    width:350px;
+    height: 450px;
+    position: absolute;
+    top: 180px;
+    right: 140px;
+
+}
+
+.feature-img i {
+    float: right;
+    margin-top: 128px;
+    margin-right: 120px;
+}
+
+.bottom-bar {
+    height: 7px;
+    width: 185px;
+    background: black;
+    position: absolute;
+    right: 180px;
+    bottom:70px;
+}
+
+.bottom-bar span{
+    height: 7px;
+    width: 7px;
+    background: black;
+    position: absolute;
+    right:190px;
+    
+}
+
+.feature-img h1 {
+    position: absolute;
+    top: 46%;
+    right:29%;
+    font-size: 65px;
+    font-weight: 300;
+    color:rgba(0,0,0, 0.1);
+    transform: rotate(-90deg);
+}
+
+.text-box {
+    position: absolute;
+    top: 30%;
+    left:4%;
+    width: 460px;
+}
+
+.text-box h2 {
+    font-size: 62px;
+    font-weight: 30px;
+    line-height: 60px;
+}
+
+.text-box p {
+    font-size: 18px;
+    margin-top:30px;
+    padding-right: 20px;
+    color:#555;
+}
+
+.text-box::after{
+  content: '\276f';  
+  position: absolute;
+  bottom: -80px;
+  right:40px;
+  font-size: 25px;
+  transform: rotate(90deg);
+}
+
+.line-2{
+    position: absolute;
+    right:85px;
+    bottom:-60px;
+    width:70px;
+    height:2px;
+    background: black;
+}
+
+.line-2 span{
+    position: absolute;
+    right:75px;
+    width:5px;
+    height:2px;
+    background: black;
+}
+
+
+.vertical-menu {
+    position: absolute;
+    bottom: 235px;
+    left:-105px;
+    transform: rotate(-90deg);
+    color: white;
+    text-transform: uppercase;
+}
+
+.vertical-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.icons-box {
+    width:22px;
+    position: absolute;
+    right: 45px;
+    bottom: 50px;
+    text-align: center;
+}
+
+.social-icons i{
+    margin: 20px 0;
+}
+
+ .fa-opencart{
+    margin-top: 60px;
+}
